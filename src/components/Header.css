@@ -1,0 +1,29 @@
+.Header {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(to right, #222 1%, transparent), url("../assets/hermann.jpg"); 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero * {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10%;
+}
+
+.hero-text {
+    padding-top: 20vh;
+    font-size: 6vw;
+}
+
+.buzzword {
+    font-size: 13vw;
+}
