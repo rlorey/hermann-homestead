@@ -3,8 +3,27 @@
 
 .header-text {
   font-family: 'Raleway', sans-serif;
-  margin-top: 3vw;
+  margin-top: 5%;
+  margin-bottom: 3%;
   width: 100%;
   text-align: center;
   font-size: 5vw;
+}
+
+.fun-box {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  margin: auto;
+  width: 70vw;
+  height: 30vw;
+  padding: 4%;
+  background-color: #a8e6cf;
+  margin-bottom: 2em;
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: box-shadow 0.3s;
+}
+
+.fun-box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }

@@ -7,6 +7,11 @@ class About extends Component {
     return (
       <div className="About">
         <div className="header-text">Beyersdorf-Walker Homestead</div>
+        <div className="fun-box">
+          We offer 🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐 of all shape and size.
+          Get your 🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐 on during yoga and eat 
+          🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐🐐 yogurt.
+        </div>
       </div>
     );
   }
