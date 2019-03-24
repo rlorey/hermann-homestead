@@ -4,7 +4,7 @@
 }
 
 .hero {
-    background: linear-gradient(to right, #222 1%, transparent), url("../assets/hermann.jpg"); 
+    background: linear-gradient(to right, #222 1%, transparent), url('../assets/hermann.jpg'); 
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,4 +26,22 @@
 
 .buzzword {
     font-size: 13vw;
+}
+
+@keyframes flash {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+  }
+  
+.SeeMoreArrow {
+    /* Flashing animation  */
+    /* animation-duration: 3s;
+    animation-name: flash;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    width: 5vw;
+    padding: 0;
+    margin-left: 90vw;
+    margin-top: 10vh;
 }
