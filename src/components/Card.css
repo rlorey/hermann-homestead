@@ -1,0 +1,56 @@
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: box-shadow 0.3s;
+  width: 25em;
+  height: 28em;
+  display: inline-block;
+  margin: 2em;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: left;
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.image {
+    height: 12em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+@media only screen and (max-width: 700px) {
+  .Card {
+    width: 20em;
+    height: 23em;    
+  }
+  
+  .image {
+    height: 10em;    
+  }
+  
+  .heading {
+    font-size: 1.5em;    
+  }
+
+  .text {
+    font-size: 1.2em;    
+  }
+}

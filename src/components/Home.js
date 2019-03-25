@@ -9,6 +9,7 @@ class Home extends Component {
       <div>
         <Header />
         <About />
+        <div className="copyright">© 2019</div>
       </div>
     );
   }
