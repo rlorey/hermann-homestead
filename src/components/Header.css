@@ -5,7 +5,7 @@
 
 .hero {
   background: linear-gradient(to right, #222 1%, transparent),
-    url('../assets/splash.png');
+    url('../assets/splash.jpg');
   height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
