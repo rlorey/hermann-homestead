@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <div className="About">
-        <div className="header-text">Beyersdorf-Walker Homestead</div>
+        <div className="header-text">Hermann Homestead</div>
         <Card
           image="goats.jpg"
           heading="Something about goats"

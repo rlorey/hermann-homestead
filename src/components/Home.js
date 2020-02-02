@@ -9,7 +9,7 @@ class Home extends Component {
       <div>
         <Header />
         <About />
-        <div className="copyright">© 2019</div>
+        <div className="copyright">© {(new Date()).getFullYear()} Hermann Homestead</div>
       </div>
     );
   }
