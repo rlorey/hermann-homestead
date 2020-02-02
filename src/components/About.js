@@ -8,27 +8,27 @@ class About extends Component {
       <div className="About">
         <div className="header-text">Hermann Homestead</div>
         <Card
-          image="becky-and-jim.png"
+          image="becky-and-jim.jpg"
           heading="Meet the Family"
           text=""
         />
         <Card
-          image="yoga.png"
+          image="yoga.jpg"
           heading="Yoga"
           text=""
         />
         <Card
-          image="cabin.png"
+          image="cabin.jpg"
           heading="Cabins"
           text=""
         />
         <Card
-          image="lumber.png"
+          image="lumber.jpg"
           heading="Lumber"
           text=""
         />
         <Card
-          image="gallery.png"
+          image="gallery.jpg"
           heading="Gallery"
           text=""
         />
