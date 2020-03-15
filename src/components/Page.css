@@ -1,0 +1,52 @@
+#Page {
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid red;
+}
+
+#page-header {
+    height: 2.5em;
+    border: 6px solid black;
+    text-align: left;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#site-name {
+    display: inline-block;
+    line-height: 2.5em;
+    vertical-align: middle;
+    padding-left: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#page-title, #page-text {
+    width: 58%;
+    margin: auto;
+}
+
+#page-title {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 40px;
+}
+
+#page-text {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+#page-text img {
+    width: 100%;
+    height: auto;
+    padding: .5vw;
+}
+
+@media only screen and (max-width: 700px) {
+  #page-title, #page-text {
+    width: 80%;
+  }
+}

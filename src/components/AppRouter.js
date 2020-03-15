@@ -8,6 +8,7 @@ import MeetTheFamily from './MeetTheFamily';
 import React from 'react';
 import Yoga from './Yoga';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import LearnTheHistory from './LearnTheHistory';
 
 function AppRouter() {
   return (
@@ -17,6 +18,7 @@ function AppRouter() {
         <Route exact path='/cabins' component={Cabins} />
         <Route exact path='/gallery' component={Gallery} />
         <Route exact path='/hit-the-town' component={HitTheTown} />
+        <Route exact path='/learn-the-history' component={LearnTheHistory} />
         <Route exact path='/lumber' component={Lumber} />
         <Route exact path='/meet-the-family' component={MeetTheFamily} />
         <Route exact path='/oops' component={ErrorPage} />

@@ -8,10 +8,10 @@ class About extends Component {
       <div className="About">
         <div className="header-text">Hermann Homestead</div>
         <Card
-          image="becky-and-jim.jpg"
-          heading="Meet the Family"
+          image="cabin.jpg"
+          heading="Cabins"
           text=""
-          href="meet-the-family"
+          href="cabins"
         />
         <Card
           image="yoga.jpg"
@@ -20,28 +20,34 @@ class About extends Component {
           href="yoga"
         />
         <Card
-          image="cabin.jpg"
-          heading="Cabins"
-          text=""
-          href="cabins"
-        />
-        <Card
           image="lumber.jpg"
           heading="Lumber"
           text=""
           href="lumber"
         />
         <Card
-          image="gallery.jpg"
-          heading="Gallery"
+          image="hit-the-town.jpg"
+          heading="Learn The History"
           text=""
-          href="gallery"
+          href="learn-the-history"
         />
         <Card
           image="hit-the-town.jpg"
           heading="Hit The Town"
           text=""
           href="hit-the-town"
+        />
+        <Card
+          image="becky-and-jim.jpg"
+          heading="Meet the Family"
+          text=""
+          href="meet-the-family"
+        />
+        <Card
+          image="gallery.jpg"
+          heading="Gallery"
+          text=""
+          href="gallery"
         />
       </div>
     );
