@@ -11,26 +11,37 @@ class About extends Component {
           image="becky-and-jim.jpg"
           heading="Meet the Family"
           text=""
+          href="meet-the-family"
         />
         <Card
           image="yoga.jpg"
           heading="Yoga"
           text=""
+          href="yoga"
         />
         <Card
           image="cabin.jpg"
           heading="Cabins"
           text=""
+          href="cabins"
         />
         <Card
           image="lumber.jpg"
           heading="Lumber"
           text=""
+          href="lumber"
         />
         <Card
           image="gallery.jpg"
           heading="Gallery"
           text=""
+          href="gallery"
+        />
+        <Card
+          image="hit-the-town.jpg"
+          heading="Hit The Town"
+          text=""
+          href="hit-the-town"
         />
       </div>
     );
